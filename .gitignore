@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ledgers / exports
+costs.json
+# mined real-traffic eval set (may contain private prompts)
+evals/data/real_traffic.json
+evals/data/results-*.json
